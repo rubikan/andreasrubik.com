@@ -16,8 +16,8 @@ dateFormat = "2 January 2006"
 [author]
   name = "Andreas Rubik"
   image = "img/author.png"
-  headline = "Java Developer with an interest in computer security, cooking and videogames"
-#  bio = "Java Developer with an interest in computer security, cooking and videogames"
+  headline = "Java developer with an interest in computer security, cooking and videogames"
+#  bio = "Java developer with an interest in computer security, cooking and videogames"
   links = [
     { email = "mailto:mail@andreasrubik.com" },
 #     { link = "https://link-to-some-website.com/" },

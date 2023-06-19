@@ -1,3 +1,2 @@
-# Resume
-
-{{< embed-pdf url="/pdf/resume.pdf" >}}
+#
+{{< pdfEmbed "/pdf/resume.pdf" >}}

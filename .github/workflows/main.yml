@@ -27,3 +27,4 @@ jobs:
           port: ${{ secrets.PORT }}
           source: ./public/*
           target: /var/www/html
+          overwrite: true

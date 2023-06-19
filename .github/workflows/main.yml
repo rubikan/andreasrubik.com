@@ -16,7 +16,7 @@ jobs:
           hugo-version: "0.96.0"
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify --destination html
         
       - name: Copy via scp
         uses: appleboy/scp-action@v0.1.4
@@ -25,6 +25,6 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.KEY }}
           port: ${{ secrets.PORT }}
-          source: ./public/*
-          target: /var/www/html
+          source: ./html/*
+          target: /var/www
           overwrite: true

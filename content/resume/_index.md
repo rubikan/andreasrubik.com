@@ -1,2 +1,0 @@
-#
-{{< pdfEmbed "/pdf/resume.pdf" >}}

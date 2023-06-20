@@ -8,7 +8,7 @@ rtl = false
 title = "Andreas Rubik"
 logo = "img/logo.png"
 secondaryLogo = "img/logo.png"
-# description = "My awesome website"
+description = "Personal homepage of Andreas Rubik"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 dateFormat = "2 January 2006"

@@ -6,6 +6,9 @@ name: Build Container
     branches:
       - main
 
+env:
+  REPO: ${GITHUB_REPOSITORY,,}
+
 jobs:
   docker:
     runs-on: ubuntu-latest
@@ -13,9 +16,6 @@ jobs:
       contents: read
       packages: write
     steps:
-      - name: downcase REPO
-        run: |
-          echo "REPO=${GITHUB_REPOSITORY,,}" >>${GITHUB_ENV}
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
       - name: Set up Docker Buildx

@@ -7,7 +7,7 @@ slug: "imagehive"
 tags: ["java", "micronaut", "remix", "tailwind"]
 ---
 
-![Imagehive logo](featured.png?width=250px&height=250px)
+![Imagehive logo](featured.png?width=150px&height=150px)
 
 https://github.com/GyrosOfWar/imagehive
 

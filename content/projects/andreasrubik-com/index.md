@@ -7,7 +7,7 @@ slug: "andreasrubik-com"
 tags: ["hugo", "blowfish", "static site generation"]
 ---
 
-![andreasrubik.com logo](logo.png)
+![andreasrubik.com logo](featured.png)
 
 https://github.com/Rubikan/andreasrubik.com
 

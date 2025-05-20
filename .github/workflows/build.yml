@@ -36,3 +36,11 @@ jobs:
           tags: |
             ghcr.io/${{ github.repository }}:${{ github.ref_name }}
             ghcr.io/${{ github.repository }}:latest
+      - name: Deploy portainer
+        id: deploy_portainer
+        uses: wirgen/portainer-stack-redeploy-action@v1.1
+        with:
+          portainerUrl: ${{ secrets.PORTAINER_URL }}
+          accessToken: ${{ secrets.PORTAINER_ACCESS_TOKEN }}
+          stackId: 36
+          endpointId: 2

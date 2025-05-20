@@ -1,29 +1,33 @@
+disabled = false
 languageCode = "en"
 languageName = "English"
-displayName = "EN"
-isoCode = "en"
 weight = 1
-rtl = false
-
 title = "Andreas Rubik"
-logo = "img/logo.png"
-secondaryLogo = "img/logo.png"
-description = "Personal homepage of Andreas Rubik"
-# copyright = "Copy, _right?_ :thinking_face:"
 
-dateFormat = "2 January 2006"
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "img/logo.png"
+  secondaryLogo = "img/logo.png"
+  description = "Personal homepage of Andreas Rubik"
+  # copyright = "Copy, _right?_ :thinking_face:"
 
-[author]
+[params.author]
   name = "Andreas Rubik"
+  email = "mail@andreasrubik.com"
   image = "img/author.png"
+  imageQuality = 96
   headline = "Java developer with an interest in computer security, cooking and videogames"
-#  bio = "Java developer with an interest in computer security, cooking and videogames"
+  # bio = "A little bit about you"
   links = [
-    { email = "mailto:mail@andreasrubik.com" },
+     { email = "mailto:mail@andreasrubik.com" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
 #     { apple = "https://www.apple.com" },
 #     { blogger = "https://username.blogspot.com/" },
+     { bluesky = "https://bsky.app/profile/rubikan.bsky.social" },
 #     { codepen = "https://codepen.io/username" },
 #     { dev = "https://dev.to/username" },
 #     { discord = "https://discord.gg/invitecode" },
@@ -31,11 +35,12 @@ dateFormat = "2 January 2006"
 #     { facebook = "https://facebook.com/username" },
 #     { flickr = "https://www.flickr.com/photos/username/" },
 #     { foursquare = "https://foursquare.com/username" },
-     { github = "https://github.com/Rubikan" },
+     { github = "https://github.com/rubikan" },
 #     { gitlab = "https://gitlab.com/username" },
 #     { google = "https://www.google.com/" },
 #     { hashnode = "https://username.hashnode.dev" },
 #     { instagram = "https://instagram.com/username" },
+#     { itch-io = "https://username.itch.io" },
 #     { keybase = "https://keybase.io/username" },
 #     { kickstarter = "https://www.kickstarter.com/profile/username" },
 #     { lastfm = "https://lastfm.com/user/username" },
@@ -51,14 +56,18 @@ dateFormat = "2 January 2006"
 #     { slack = "https://workspace.url/team/userid" },
 #     { snapchat = "https://snapchat.com/add/username" },
 #     { soundcloud = "https://soundcloud.com/username" },
+#     { spotify = "https://open.spotify.com/user/userid" },
      { stack-overflow = "https://stackoverflow.com/users/4185978/rubikan" },
 #     { steam = "https://steamcommunity.com/profiles/userid" },
 #     { telegram = "https://t.me/username" },
+#     { threads = "https://www.threads.net/@username" },
 #     { tiktok = "https://tiktok.com/@username" },
 #     { tumblr = "https://username.tumblr.com" },
 #     { twitch = "https://twitch.tv/username" },
-     { twitter = "https://twitter.com/_Rubikan_" },
+#     { twitter = "https://twitter.com/username" },
+     { x-twitter = "https://twitter.com/_Rubikan_" },
 #     { whatsapp = "https://wa.me/phone-number" },
 #     { youtube = "https://youtube.com/username" },
 #     { ko-fi = "https://ko-fi.com/username" },
+#     { codeberg = "https://codeberg.org/username"},
   ]
